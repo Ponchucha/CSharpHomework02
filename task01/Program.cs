@@ -6,8 +6,8 @@
 918 -> 1
 */
 
-Random RandomVar = new Random();
-int number = RandomVar.Next (100,1000);
+Random randomVar = new Random();
+int number = randomVar.Next (100,1000);
 
 Console.WriteLine ($"Берём число {number} и смотрим, какая цифра в нём вторая?");
 
